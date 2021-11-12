@@ -1,6 +1,6 @@
 # Trabalho 2 da Disciplina de Programação Orientada A Objeto Avançada
 
-O trabalho 2 foi realizado pelo Grupo 10 formado por Claudia Rincon Sanches (RA 743521) e Marcus Vinicius Soares de Oliveira (RA 770026), sendo que cada integrante do grupo ficou encarregado de fazer uma versão do trabalho. Este repositório contém a versão do projeto feita por Marcus Vinicius Soares de Oliveira.
+O trabalho 2 foi realizado pelo Grupo 10 formado por <b>Claudia Rincon Sanches</b> (RA 743521) e <b>Marcus Vinicius Soares de Oliveira</b> (RA 770026), sendo que cada integrante do grupo ficou encarregado de fazer uma versão do trabalho. Este repositório contém a versão do projeto feita por Marcus Vinicius Soares de Oliveira.
 
 - SGBD utilizado: Apache Derby;
 - Nome do banco de dados: PacotesTuristicos;
