@@ -39,6 +39,10 @@ public class ClienteController {
 
     @PostMapping("/salvar")
     public String salvar(@Valid Cliente cliente, BindingResult result, RedirectAttributes attr){
+        if (result.hasErrors()) {
+			return "cliente/cadastro";
+		}
+        
         cliente.setSenha(encoder.encode(cliente.getSenha()));
         clienteService.salvar(cliente);
         attr.addFlashAttribute("success", "cliente.create.success");
