@@ -25,7 +25,7 @@ public class PacotesTuristicosApplication {
 	@Bean
 	public CommandLineRunner demo(BCryptPasswordEncoder encoder, IClienteDAO clienteDAO, IPacoteDAO pacoteDAO, IAgenciaDAO agenciaDAO){
 		return (args) -> {
-			/*Agencia a1 = new Agencia();
+			Agencia a1 = new Agencia();
 			a1.setCnpj("55.789.390/0008-99");
 			a1.setDescricao("[descricao 1]");
 			a1.setEmail("turismagia@email.com");
@@ -103,7 +103,7 @@ public class PacotesTuristicosApplication {
 			admin.setDataNasc("22/11/1993");
 			admin.setPapel("ROLE_ADMIN");
 			admin.setEnabled(true);
-			clienteDAO.save(admin);*/
+			clienteDAO.save(admin);
 		};
 	}
 
